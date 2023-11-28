@@ -1,7 +1,13 @@
+import logo from "../assets/logo.svg"
 const nav = ()=>{
     return(
-        <nav>
-            <h1>Nav here</h1>
+        <nav className="bg-[#181F2A]">
+            <img src={logo} alt="" />
+            <ul>
+                <li>Features</li>
+                <li>Team</li>
+                <li>Sign in</li>
+            </ul>
         </nav>
     )
 }
