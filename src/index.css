@@ -4,7 +4,11 @@
 @tailwind utilities;
 
 @layer base{
-  html{
-    font-family: 'Raleway', sans-serif;;
+  :root{
+    font-family: 'Raleway', sans-serif;
+    --blue-main: 218deg 28% 13%;
+    --blue-footer: 216deg 53% 9%;
+    --blue-testimonial: 219deg 30% 18%;
+    --blue-intro: 217deg 28% 15%;
   }
 }

@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        main: 'hsl(var(--blue-main)/ <alpha-value>)',
+        footer: 'hsl(var(--blue-footer)/ <alpha-value>)',
+        testimonial: 'hsl(var(--blue-testimonial)/ <alpha-value>)',
+        intro: 'hsl(var(--blue-intro)/ <alpha-value>)'
+      },
       backgroundImage:{
         'mobile-curve':"url('./src/assets/bg-curvy-mobile.svg')",
         'desktop-curve':"url('./src/assets/bg-curvy-desktop.svg')"
