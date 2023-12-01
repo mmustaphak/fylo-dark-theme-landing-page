@@ -17,7 +17,8 @@ export default {
         'desktop-curve':"url('./src/assets/bg-curvy-desktop.svg')"
       },
       fontFamily:{
-        'raleway':['Raleway', 'sans-serif']
+        'raleway':['Raleway', 'sans-serif'],
+        'open_san':['"Open Sans"', 'sans-serif']
       }
     },
   },
