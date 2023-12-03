@@ -5,7 +5,7 @@
 
 @layer base{
   :root{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'open_san', sans-serif;
     --blue-main: 218deg 28% 13%;
     --blue-footer: 216deg 53% 9%;
     --blue-testimonial: 219deg 30% 18%;
