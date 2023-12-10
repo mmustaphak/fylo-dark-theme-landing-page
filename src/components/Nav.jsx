@@ -4,9 +4,9 @@ const nav = ()=>{
         <nav className="flex font-raleway items-center justify-between p-4 bg-intro">
             <img className="w-20" src={logo} alt="" />
             <ul className="text-white flex justify-between w-[60%] max-w-[15rem]">
-                <li>Features</li>
-                <li>Team</li>
-                <li>Sign in</li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Sign in</a></li>
             </ul>
         </nav>
     )
