@@ -1,5 +1,5 @@
 import profile1 from "../assets/profile-1.jpg"
-const Testimonial = ()=>{
+const Testimonials = ()=>{
     return(
         <section className="bg-main text-white px-6 pt-32">
             <div className="px-6 py-8 bg-testimonial rounded-md">
@@ -16,4 +16,4 @@ const Testimonial = ()=>{
     )
 }
 
-export default Testimonial
+export default Testimonials
