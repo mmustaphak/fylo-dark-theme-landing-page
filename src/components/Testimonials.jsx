@@ -1,6 +1,7 @@
 import profile1 from "../assets/profile-1.jpg"
 import profile2 from "../assets/profile-2.jpg"
 import profile3 from "../assets/profile-3.jpg"
+import quotes from "../assets/bg-quotes.png"
 
 const Testimonials = () => {
 
@@ -22,7 +23,10 @@ const Testimonials = () => {
 
     return (
         <section className="bg-main text-white px-6 pt-32">
-            {testimonials}
+            <div className="relative">
+                <img src={quotes} className="absolute w-8 left-2 top-[-28px]" alt="background quotes" />
+                {testimonials}
+            </div>
         </section>
     )
 }
