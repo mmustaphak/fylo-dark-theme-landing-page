@@ -2,10 +2,13 @@ import logo from "../assets/logo.svg"
 import pin from "../assets/icon-location.svg"
 import phone from "../assets/icon-phone.svg"
 import email from "../assets/icon-email.svg"
+import facebook from "../assets/icon-facebook.svg"
+import instagram from "../assets/icon-instagram.svg"
+import twitter from "../assets/icon-twitter.svg"
 
 const Footer = () => {
     return (
-        <footer className="">
+        <footer className="bg-footer">
             <img src={logo} alt="Fylo Logo" />
 
             <div>
@@ -28,10 +31,11 @@ const Footer = () => {
             </div>
 
             <div>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+                <img src={facebook} alt="" />
+                <img src={instagram} alt="" />
+                <img src={twitter} alt="" />
             </div>
+            
         </footer>
     )
 }
