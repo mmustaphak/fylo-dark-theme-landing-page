@@ -3,7 +3,6 @@ import Hero from "./components/Hero.jsx"
 import AdditionalInfo from "./components/AdditionalInfo.jsx"
 import Collaboration from "./components/Collaboration.jsx"
 import Testimonials from "./components/Testimonials.jsx"
-import SignUp  from "./components/SignUp.jsx"
 import Footer from "./components/Footer.jsx"
 
 
@@ -15,7 +14,6 @@ export default function App() {
       <AdditionalInfo/>
       <Collaboration/>
       <Testimonials/>
-      <SignUp/>
       <Footer/>
     </>
   )
