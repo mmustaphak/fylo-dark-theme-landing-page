@@ -15,8 +15,8 @@ export default {
         'call-to-action-gradient2': 'hsl(var(--call-to-action-gradient2)/ <alpha-value>)'
       },
       backgroundImage:{
-        'mobile-curve':"url('./src/assets/bg-curvy-mobile.svg')",
-        'desktop-curve':"url('./src/assets/bg-curvy-desktop.svg')"
+        'mobile-curve':"url('/src/assets/bg-curvy-mobile.svg')",
+        'desktop-curve':"url('/src/assets/bg-curvy-desktop.svg')"
       },
       fontFamily:{
         'raleway':['Raleway', 'sans-serif'],
