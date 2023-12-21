@@ -27,7 +27,7 @@ const Testimonials = () => {
     })
 
     return (
-        <section className="bg-main text-white px-6 pt-32">
+        <section className="relative bg-main text-white px-6 pt-32 pb-80">
             <div className="relative">
                 <img src={quotes} className="absolute w-8 left-2 top-[-28px]" alt="background quotes" />
                 {testimonials}

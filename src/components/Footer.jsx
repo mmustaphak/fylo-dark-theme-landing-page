@@ -8,7 +8,7 @@ import twitter from "../assets/icon-twitter.svg"
 
 const Footer = () => {
     return (
-        <footer className="bg-footer px-5 pt-6 pb-14 text-white">
+        <footer className="bg-footer px-5 pt-64 pb-14 text-white">
             <img src={logo} alt="Fylo Logo" />
 
             <div className="mt-12">
