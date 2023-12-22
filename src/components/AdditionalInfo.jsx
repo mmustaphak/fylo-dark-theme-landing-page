@@ -6,7 +6,7 @@ import file from "../assets/icon-any-file.svg"
 const AdditionalInfo = () => {
     return (
         <section className="text-center text-white bg-main">
-            <div className="grid gap-16 mx-auto px-4 pt-32 max-w-sm">
+            <div className="grid gap-16 mx-auto px-4 pt-32 max-w-sm md:max-w-3xl md:grid-cols-2">
                 <div>
                     <img src={access} className="mx-auto mb-10" alt="Acesss anywhere" />
                     <h3 className="mb-3 text-lg font-bold font-raleway">Access your files, anywhere</h3>
