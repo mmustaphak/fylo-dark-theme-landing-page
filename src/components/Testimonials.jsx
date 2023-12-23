@@ -13,8 +13,8 @@ const Testimonials = () => {
 
     const testimonials = data.map((person) => {
         return(
-            <div key={person} className="px-6 py-8 bg-testimonial rounded-md mt-6">
-                <p className="text-sm">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <div key={person} className="relative max-w-[450px] px-6 py-8 bg-testimonial rounded-md mt-6 md:px-10">
+                <p className="text-sm max-w-[20rem]">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
                 <div className="flex items-center mt-4 text-xs">
                     <img className="w-8 h-8 rounded-full" src={person.image} alt="" />
                     <div className="ml-3">
@@ -27,9 +27,9 @@ const Testimonials = () => {
     })
 
     return (
-        <section className="relative bg-main text-white px-6 pt-32 pb-80">
-            <div className="relative">
-                <img src={quotes} className="absolute w-8 left-2 top-[-28px]" alt="background quotes" />
+        <section className="relative bg-main text-white pt-32 pb-80">
+            <div className="relative flex flex-wrap justify-around max-w-[1286px]">
+                <img src={quotes} className="absolute w-8 left-2 md:top-[2%] md:left-[5%] md:z-[0]" alt="background quotes" />
                 {testimonials}
             </div>
             <SignUp/>
