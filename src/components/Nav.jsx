@@ -2,13 +2,13 @@ import logo from "../assets/logo.svg"
 
 const Nav = ()=>{
     return(
-        <header>
-            <nav>
-                <img src={logo} alt="Fylo" />
-                <ul>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Sign in</a></li>
+        <header className=" font-raleway p-4 bg-intro">
+            <nav className="flex justify-between text-white items-center bg-intro">
+                <img src={logo} className="w-24" alt="Fylo" />
+                <ul className="flex">
+                    <li><a href="#" target="_blank">Features</a></li>
+                    <li className="ml-4"><a href="#" target="_blank">Team</a></li>
+                    <li className="ml-4"><a href="#" target="_blank">Sign in</a></li>
                 </ul>
             </nav>
         </header>
