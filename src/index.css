@@ -6,5 +6,12 @@
 @layer base{
   :root{
     font-family: 'Open Sans', sans-serif;
+    --color-intro: 217deg 28% 15%;
+    --color-main: 218deg 28% 13%;
+    --color-footer: 216deg 53% 9%;
+    --color-testimonial: 219deg 30% 18%;
+    --color-gradient1: 176deg 68% 64%;
+    --color-gradient2: 198deg 60% 50%;
+    --color-error: 0 100% 63%;
   }
 }
