@@ -17,6 +17,10 @@ export default {
         gradient1: 'hsl(var(--color-gradient1) / <alpha-value>)',
         gradient2: 'hsl(var(--color-gradient2) / <alpha-value>)',
         error: 'hsl(var(--color-error) / <alpha-value>)'
+      },
+      backgroundImage:{
+        'mobile':"url('/src/assets/bg-curvy-mobile.svg')",
+        'desktop':"url('/src/assets/bg-curvy-desktop.svg')"
       }
     }
   },
