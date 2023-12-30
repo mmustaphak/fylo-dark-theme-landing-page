@@ -5,7 +5,7 @@ import profile3 from "../assets/profile-3.jpg"
 const Testimonial = ()=>{
     return(
         <section className="flex flex-wrap justify-center pt-48 px-4 bg-main text-white">
-            <div className="w-[90%] min-w-[261px] py-10 px-6 rounded-md bg-testimonial">
+            <div className="w-[90%] min-w-[320px] py-10 px-6 rounded-md bg-testimonial">
                 <p className="text-xs">Fylo has improved our team productivity by an order of magnitude. Since making the switch  our team has become a well-oiled collaboration machine.</p>
                 <div className="flex justify-between max-w-[11.8rem] items-center mt-4">
                     <img className="max-w-[2.2rem] rounded-full" src={profile1} alt="Founder and Ceo of Huddle Satish Patel" />
@@ -16,7 +16,7 @@ const Testimonial = ()=>{
                 </div>
             </div>
 
-            <div className="mt-8 w-[90%] min-w-[261px] py-10 px-6 rounded-md bg-testimonial">
+            <div className="mt-8 w-[90%] min-w-[320px] py-10 px-6 rounded-md bg-testimonial">
                 <p className="text-xs">Fylo has improved our team productivity by an order of magnitude. Since making the switch  our team has become a well-oiled collaboration machine.</p>
                 <div className="flex justify-between max-w-[11.8rem] items-center mt-4">
                     <img className="max-w-[2.2rem] rounded-full" src={profile2} alt="Founder and Ceo of Huddle Bruce Mckenzie" />
@@ -27,7 +27,7 @@ const Testimonial = ()=>{
                 </div>
             </div>
 
-            <div className="mt-8 w-[90%] min-w-[261px] py-10 px-6 rounded-md bg-testimonial">
+            <div className="mt-8 w-[90%] min-w-[320px] py-10 px-6 rounded-md bg-testimonial">
                 <p className="text-xs">Fylo has improved our team productivity by an order of magnitude. Since making the switch  our team has become a well-oiled collaboration machine.</p>
                 <div className="flex justify-between max-w-[11.8rem] items-center mt-4">
                     <img className="max-w-[2.2rem] rounded-full" src={profile3} alt="Founder and Ceo of Huddle Iva Boyd" />
